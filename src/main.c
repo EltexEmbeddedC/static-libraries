@@ -56,7 +56,7 @@ void do_operation(int choice) {
       if (error) {
         printf("Ошибка: деление на ноль\n");
       } else {
-        printf("Результат: %d * %d = %f\n", a, b, result);
+        printf("Результат: %d / %d = %f\n", a, b, result);
       }
       break;
     case 5:
